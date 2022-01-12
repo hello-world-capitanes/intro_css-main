@@ -1,0 +1,31 @@
+
+/*https://colorhunt.co/palette/f0e9d2e6ddc4678983181d31*/
+@import "./variables.css";
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container > div {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+
+  /*
+      min-width: 300px;
+      border: 1px solid var(--on-primary-color);
+      padding: 150px;
+      box-sizing: border-box;
+  */
+
+}
+
+.container > div:nth-child(even) {
+  background: var(--primary-color);
+  color: var(--on-primary-color);
+}
+
+.container > div:nth-child(odd) {
+  background: var(--secondary-color);
+  color: var(--on-secondary-color);
+}
