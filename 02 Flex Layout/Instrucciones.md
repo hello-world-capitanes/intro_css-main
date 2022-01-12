@@ -4,9 +4,9 @@
 ![Ejercicio 1](./img/ejercicios/01_ejercicio.png)
 
 2. Realizar el ejercicio anterior aplicando flexbox.
-![Ejercicio 2](./img/ejercicios/02_flexbox_help.png)
 
 3. Crear el HTML Y CSS necesario para conseguir el siguiente resultado utilizando Grid
+
 ![Ejercicio 3](./img/ejercicios/03_ejercicio.gif)
 
 4. Resultado final
