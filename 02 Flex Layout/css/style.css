@@ -2,8 +2,17 @@
 /*https://colorhunt.co/palette/f0e9d2e6ddc4678983181d31*/
 @import "./variables.css";
 
+
 *{
   font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  margin-top: 2rem;
+}
+
+body {
+  /*  display: grid; */
 }
 
 .container > div {
@@ -28,4 +37,41 @@
 .container > div:nth-child(odd) {
   background: var(--secondary-color);
   color: var(--on-secondary-color);
+}
+
+/*******************/
+/*** Ejercicio 2 ***/
+/*******************/
+
+.ejercicio-dos_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+/*  border: 1px dotted var(--secondary-color);*/
+
+}
+.ejercicio-dos_container > div {
+/*  border: 1px solid var(--secondary-color); */
+  flex-grow: 1;
+  text-align: center;
+}
+
+
+.ejercicio-dos_container > div:nth-child(even) {
+  background: var(--primary-color);
+  color: var(--on-primary-color);
+  /*
+      font-size: 35px; Probar base-line
+      flex-grow: 2;
+  */
+
+}
+
+.ejercicio-dos_container > div:nth-child(odd) {
+  background: var(--secondary-color);
+  color: var(--on-secondary-color);
+  /*
+  font-size: 50px
+  */
 }
