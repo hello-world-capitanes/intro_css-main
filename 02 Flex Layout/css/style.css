@@ -52,7 +52,7 @@ body {
   text-align: center;
 }
 
-.ejercicio-dos_container>div:nth-child(even) {
+.ejercicio-dos_container > div:nth-child(even) {
   background: var(--primary-color);
   color: var(--on-primary-color);
   /*
@@ -85,7 +85,27 @@ body {
   */
 }
 
-.ejercicio-tres_container>div:nth-child(odd):hover {
+/*******************/
+/*** Ejercicio 3 ***/
+/*******************/
+
+.ejercicio-tres_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.ejercicio-tres_container  > div:nth-child(odd) {
+  background: var(--secondary-color);
+  color: var(--on-secondary-color);
+
+  /*
+  font-size: 50px
+  */
+}
+
+.ejercicio-tres_container  > div:nth-child(odd):hover {
+
   background: var(--primary-color);
   color: var(--on-primary-color);
   /*
