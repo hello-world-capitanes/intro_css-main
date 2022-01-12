@@ -3,5 +3,11 @@
 1. Crear un archivo HTML y CSS para conseguir el siguiente resultado sin utilizar Flexbox.
 ![Ejercicio 1](./img/ejercicios/01_ejercicio.png)
 
-2. Crear la misma vista que el ejercicio 1 pero ahora usando flex-layout.
-![Ejercicio 2](./img/ejercicios/flexbox-properties.jpg)
+2. Realizar el ejercicio anterior aplicando flexbox.
+![Ejercicio 2](./img/ejercicios/02_flexbox_help.png)
+
+3. Crear el HTML Y CSS necesario para conseguir el siguiente resultado utilizando Grid
+![Ejercicio 3](./img/ejercicios/03_ejercicio.gif)
+
+4. Resultado final
+![Ejercicio 4](./img/ejercicios/resultado_final.gif)
