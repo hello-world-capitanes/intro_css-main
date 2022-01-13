@@ -1,0 +1,74 @@
+/*
+      Tarea 01
+*/
+
+
+* {
+  color: black;
+}
+
+h1 {
+  color:purple;
+}
+
+h2 {
+  color: orange;
+}
+
+h3 {
+  color: black;
+}
+
+.subtitle {
+  color: grey;
+}
+
+#subtitle {
+  color: brown;
+}
+
+
+/*
+      Tarea 02
+*/
+
+.positions > div {
+  width: 500px;
+  height: 250px;
+
+}
+
+.static {
+  position: static;
+  left: 80px;
+
+  background: grey;
+
+}
+
+.relative {
+  position: relative;
+  left: 0px;
+
+  background: yellow;
+}
+.absolute {
+  /* ojo! no tiene en cuenta los márgenes*/
+  position: absolute;
+  left: 0px;
+
+  background: green;
+}
+.fixed {
+  /*  position: fixed;
+  left: 80px;
+  top:80px;*/
+
+  background: red;
+}
+.sticky {
+  position: sticky;
+  left: 80px;
+  top: 80px;
+  background: blue;
+}
