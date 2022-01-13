@@ -1,14 +1,12 @@
 /*
       Tarea 01
 */
-
-
 * {
   color: black;
 }
 
 h1 {
-  color:purple;
+  color: purple;
 }
 
 h2 {
@@ -27,48 +25,71 @@ h3 {
   color: brown;
 }
 
-
 /*
       Tarea 02
 */
-
-.positions > div {
+.positions>div {
   width: 500px;
   height: 250px;
-
 }
 
 .static {
   position: static;
   left: 80px;
-
   background: grey;
-
 }
 
 .relative {
   position: relative;
   left: 0px;
-
   background: yellow;
 }
+
 .absolute {
   /* ojo! no tiene en cuenta los márgenes*/
   position: absolute;
   left: 0px;
-
   background: green;
 }
+
 .fixed {
   /*  position: fixed;
   left: 80px;
   top:80px;*/
-
   background: red;
 }
+
 .sticky {
   position: sticky;
   left: 80px;
   top: 80px;
   background: blue;
+}
+
+/*
+      Tarea 02: parte B
+*/
+.parent {
+  border: 2px black dotted;
+  display: inline-block;
+}
+
+.box {
+  display: inline-block;
+  background: red;
+  width: 100px;
+  height: 100px;
+}
+
+#two {
+  top: 20px;
+  left: 20px;
+  background: green;
+  position: relative;
+}
+#two--b {
+  top: 5;
+  left: 20px;
+  background: green;
+  position: absolute;
 }
