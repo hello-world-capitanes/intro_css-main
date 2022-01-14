@@ -25,7 +25,7 @@
   margin: auto;
   border-radius: 8px;
   overflow: hidden;
-  max-width: 225px;
+
   position: relative;
 }
 
@@ -68,6 +68,7 @@
 .product-card__definition {
   color: var(--smoked-70);
   font-size: .75rem;
+
 }
 
 .product-card__price {
@@ -103,7 +104,7 @@
 .super-grid {
   display: grid;
   /*grid-template-columns: repeat(auto-fit, 200px);*/
-  grid-template-columns: repeat(var(--repeat, auto-fit), minmax(calc(180px * 1) , 250px));
+  grid-template-columns: repeat(var(--repeat, auto-fit), minmax(calc(180px * 1) , 210px));
   grid-gap: .5rem;
   justify-content: center;
 
