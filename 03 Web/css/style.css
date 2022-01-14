@@ -12,6 +12,7 @@
   transition: box-shadow .2s ease-in-out;
   overflow: hidden;
   min-width: 170px;
+  max-width: 250px;
 }
 
 .product-card:hover {
@@ -20,16 +21,19 @@
 }
 
 .product-card__img {
-  margin-bottom: 8px;
+
+  margin: auto;
   border-radius: 8px;
   overflow: hidden;
-  max-width: 200px;
+  max-width: 225px;
   position: relative;
 }
 
 .product-card__img>img {
   width: 100%;
   height: auto;
+
+
 }
 
 .product-card__img--overlay {
@@ -46,7 +50,7 @@
   align-self: center;
   justify-self: center;
   padding: .5rem;
-  width: 100%;
+  width: 80%;
 }
 
 .button-add {
@@ -83,9 +87,25 @@
   color: var(--smoked-70);
 }
 
-.flex {
+/* https://stackoverflow.com/questions/54907270/how-to-specify
+-the-maximum-number-of-columns-repeat-will-create-using-auto-fit*/
+
+.super-grid {
+  --repeat: auto-fit;
+}
+
+@media (min-width: calc(200px * 5)) {
+  .super-grid {
+    --repeat: 5;
+  }
+}
+
+.super-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 200px);
+  /*grid-template-columns: repeat(auto-fit, 200px);*/
+  grid-template-columns: repeat(var(--repeat, auto-fit), minmax(calc(180px * 1) , 250px));
+  grid-gap: .5rem;
   justify-content: center;
+
 
 }
