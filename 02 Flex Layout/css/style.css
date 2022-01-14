@@ -41,15 +41,20 @@ body {
 .ejercicio-dos_container {
   display: flex;
   flex-direction: row;
+
   justify-content: space-around;
   align-items: baseline;
-  /*  border: 1px dotted var(--secondary-color);*/
+  /*
+      border: 1px dotted var(--secondary-color);
+      flex-flow: row wrap;
+  */
 }
 
 .ejercicio-dos_container>div {
   /*  border: 1px solid var(--secondary-color); */
   flex-grow: 1;
   text-align: center;
+  /*  min-width: 300px; */
 }
 
 .ejercicio-dos_container>div:nth-child(even) {
@@ -69,17 +74,13 @@ body {
   */
 }
 
-
 /*******************/
 /*** Ejercicio 3 ***/
 /*******************/
 .ejercicio-tres_container {
   display: grid;
-
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-
-
 
 .ejercicio-tres_container>div:nth-child(odd) {
   background: var(--secondary-color);
@@ -96,7 +97,6 @@ body {
   font-size: 50px
   */
 }
-
 
 @media (min-width: 900px) {
   .ejercicio-tres_container {
