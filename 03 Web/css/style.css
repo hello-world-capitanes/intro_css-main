@@ -6,12 +6,12 @@
 
 .product-card {
   display: inline-grid;
-  grid-template-rows: 1fr auto auto auto auto;
   padding: .5rem;
 
   border-radius: 12px;
   transition: box-shadow .2s ease-in-out;
   overflow: hidden;
+  min-width: 170px;
 }
 
 .product-card:hover {
@@ -81,4 +81,11 @@
 
 .product-price__extra {
   color: var(--smoked-70);
+}
+
+.flex {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  justify-content: center;
+
 }
